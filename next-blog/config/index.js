@@ -1,5 +1,5 @@
 const dev = process.env.NODE_ENV !== 'production';
 
 export const server = dev
-  ? 'https://nexts--blog.herokuapp.com'
-  : 'https://yourwebsite.com';
+  ? 'http://localhost:3000'
+  : 'https://nexts--blog.herokuapp.com';
