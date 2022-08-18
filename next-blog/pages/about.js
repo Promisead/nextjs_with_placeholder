@@ -1,9 +1,11 @@
+import Meta from '../components/Meta';
+
 const about = () => {
   return (
-    <>
-      <h1>About Page</h1>
-      <div>about</div>
-    </>
+    <div>
+      <Meta title="About" />
+      <h1>About</h1>
+    </div>
   );
 };
 
